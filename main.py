@@ -5,7 +5,16 @@ from routes.email_routes import router as email_router
 from db import engine
 import os
 from models import Base
+from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
+
+#cors
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins (you can specify specific origins if needed)
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
 
 app.include_router(user_router)
 app.include_router(ai_response_router)
