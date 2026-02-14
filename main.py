@@ -14,7 +14,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://gpt-frontend-sable.vercel.app"
+        "https://lunexbot.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
