@@ -439,14 +439,6 @@ Contributions are welcome! Here's how:
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a **Pull Request**
 
----
-
-## 📜 15. License
-
-This project is open source and available for educational and personal use.
-
----
-
 <p align="center">
   <strong>Built with ❤️ by <a href="https://github.com/prithvihn">prithvihn</a></strong>
 </p>
